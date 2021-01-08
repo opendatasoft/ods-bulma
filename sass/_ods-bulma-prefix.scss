@@ -1,0 +1,111 @@
+@import './_ods-design-system';
+
+/* HTML Fix overflow
+   ========================================================================== */
+$body-overflow-y: auto;
+
+
+/* Colors
+   ========================================================================== */
+$white-ter: $light-200;
+$grey-lighter: $light-400;
+$grey: $light-500;
+$grey-dark: $light-600;
+
+$primary: $identity-400;
+$info: $identity-600;
+$danger: $identity-500;
+$link: $identity-300;
+$dark: $identity-200;
+
+/* Typography
+   ========================================================================== */
+$body-size: 15px;
+$body-color: $ods-text;
+$body-line-height: 1.55;
+
+$weight-normal: 400;
+$weight-bold: 800;
+
+$size-small: $size-6;
+$size-normal: $size-5;
+$size-medium: $size-4;
+$size-large: $size-3;
+
+$text: $grey-dark;
+$text-strong: $grey-dark;
+
+$title-color: $grey;
+$subtitle-color: $grey;
+$title-size: $size-2;
+$title-sup-size: 2rem;
+$title-weight: $weight-bold;
+
+$label-weight: $weight-normal;
+
+/* Dimensions & layout
+   ========================================================================== */
+/*$spacing-1: 5px;
+$spacing-2: 10px;
+$spacing-3: 15px;
+$spacing-4: 20px;
+$spacing-5: 30px;
+$spacing-6: 50px;
+$spacing-7: 70px;*/
+
+/* Footer
+========================================================================== */
+
+$footer-background-color: $info;
+$footer-color: white;
+/*$footer-padding: $spacing-6 $spacing-6;*/
+
+/* Navbar
+========================================================================== */
+$navbar-box-shadow-size: 0 2px 6px 0;
+$navbar-box-shadow-color: $grey-lighter;
+/*$navbar-padding-horizontal: $spacing-4;
+$navbar-padding-vertical: $spacing-4; //Peut-être 3 avec le titre*/
+
+/* Sections, containers
+========================================================================== */
+/*$section-padding: $spacing-5 $spacing-3;
+$section-padding-large: $spacing-7 $spacing-3;*/
+
+/* Icons
+========================================================================== */
+$icon-dimensions: $size-3;
+$icon-dimensions-small: $size-5;
+$icon-dimensions-medium: $size-2;
+$icon-dimensions-large: $size-1;
+
+/* Buttons
+========================================================================== */
+/*$button-padding-horizontal: $spacing-2;
+$button-padding-vertical: $spacing-2;*/
+
+/* Radius
+   ========================================================================== */
+$radius-small: 4px;
+$radius: 6px;
+$radius-large: 10px;
+
+/* Content
+   ========================================================================== */
+$content-heading-weight: 500;
+$content-heading-line-height: 1.25;
+
+/* ==========================================================================
+    Bulma Elements Customization
+   ========================================================================== */
+
+/* Box
+   ========================================================================== */
+$box-radius: $radius;
+$box-background-color: $light-100;
+$box-padding: $spacing-100;
+
+/* Card
+   ========================================================================== */
+$card-background-color: $light-100;
+$card-shadow: none;

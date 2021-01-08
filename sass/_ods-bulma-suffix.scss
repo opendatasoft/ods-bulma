@@ -1,0 +1,146 @@
+/* HTML Fix */
+html {
+  background-color: inherit;
+  /* font-size: 16px; --> fix in prefix
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; */
+  min-width: inherit;
+  /*overflow-x: hidden;
+  overflow-y: scroll; --> fix in prefix
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;*/
+}
+
+
+/* /explore tabs */
+a.ods-tabs__tab.table.ods-tabs__tab--horizontal {
+  margin-bottom: 0;
+}
+
+/* ODS.css override */
+/* Content */
+
+h1 a, h2 a, h3 a, h4 a {
+  color: inherit
+}
+
+input, li, p, textarea {
+  font-family: inherit
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #E5E5E5
+}
+
+p {
+  margin: 0 0 1em 0
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 1em 0
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+table td, table th {
+  text-align: left
+}
+
+html[dir=rtl] table td, html[dir=rtl] table th {
+  text-align: right
+}
+
+table.table {
+  width: 100%;
+  margin: 1em 0 0
+}
+
+table.table td, table.table th {
+  text-align: left;
+  padding: .25em
+}
+
+html[dir=rtl] table.table td, html[dir=rtl] table.table th {
+  text-align: right
+}
+
+table.table.table-bordered td, table.table.table-bordered th {
+  border: 1px solid #eee
+}
+
+table.table.table-bordered > tr:nth-child(odd) td {
+  background: rgba(0, 0, 0, .2)
+}
+
+[draggable=true] {
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text
+}
+
+input, select, textarea {
+  border: solid 1px #ccc
+}
+
+input:invalid, textarea:invalid {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  line-height: normal
+}
+
+:focus:not(.focus-ring) {
+  outline-width: 0
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: .6rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: .6rem
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: .6rem
+}
+
+p:last-child {
+  margin-bottom: 0
+}
+
