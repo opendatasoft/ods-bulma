@@ -7,16 +7,24 @@ $body-overflow-y: auto;
 
 /* Colors
    ========================================================================== */
-$white-ter: $light-200;
-$grey-lighter: $light-400;
-$grey: $light-500;
-$grey-dark: $light-600;
+$blue: #354bcf;
+$red: #e8404e;
+$darkblue: #071F32;
 
-$primary: $identity-400;
-$info: $identity-600;
-$danger: $identity-500;
-$link: $identity-300;
-$dark: $identity-200;
+$white: #ffffff;
+$white-ter: #F0F0F0;
+$grey-lighter: #E7E7E7;
+$grey: #D1D1D1;
+$grey-dark: #B6B6B6;
+$grey-darker: #9C9C9C;
+$black: #1A1A1A;
+
+$link: $red;
+$danger: $red;
+$primary: $blue;
+$info: $blue;
+$background: $white;
+$dark: $darkblue;
 
 /* Typography
    ========================================================================== */
@@ -32,26 +40,16 @@ $size-normal: $size-5;
 $size-medium: $size-4;
 $size-large: $size-3;
 
-$text: $grey-dark;
-$text-strong: $grey-dark;
+$text: $black;
+$text-strong: $black;
 
-$title-color: $grey;
-$subtitle-color: $grey;
+$title-color: $dark;
+$subtitle-color: $dark;
 $title-size: $size-2;
 $title-sup-size: 2rem;
 $title-weight: $weight-bold;
 
 $label-weight: $weight-normal;
-
-/* Dimensions & layout
-   ========================================================================== */
-/*$spacing-1: 5px;
-$spacing-2: 10px;
-$spacing-3: 15px;
-$spacing-4: 20px;
-$spacing-5: 30px;
-$spacing-6: 50px;
-$spacing-7: 70px;*/
 
 /* Footer
 ========================================================================== */

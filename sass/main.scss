@@ -4,3 +4,11 @@
 @import '../node_modules/bulma/bulma';
 @import '../node_modules/bulma-timeline/src/sass/index';
 @import '_ods-bulma-suffix';
+
+
+/* Extend flexbox helper with flex-gap */
+@each $name, $value in $spacing-values {
+  .is-flex-gap-#{$name} {
+    gap: $value !important;
+  }
+}
